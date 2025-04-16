@@ -7,8 +7,8 @@ if __name__ == "__main__":
     OUTPUT_DIR = r"C:\testoutput"
 
     # --- Set a height to force manga images to before upscaling ---
-    #FORCE_HEIGHT = None
-    FORCE_HEIGHT = 1200 # Example: Force to 1200p input
+    FORCE_HEIGHT = None
+    #FORCE_HEIGHT = 1200
 
     # --- Run the processing ---
     try:
