@@ -1,0 +1,11 @@
+tensorrt
+polygraphy
+requests
+numpy
+torch
+pyvips
+Pillow
+opencv-python
+torchvision
+timm
+tqdm
