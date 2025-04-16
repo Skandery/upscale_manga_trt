@@ -2,14 +2,12 @@ from upscale import process_upscale
 
 if __name__ == "__main__":
     # Configure paths here for direct execution
-    INPUT_DIR = r"C:\Paprika2\Git3\upscale_manga_trt\B"
-    OUTPUT_DIR = r"C:\Paprika2\Git3\upscale_manga_trt\testoutput" # Changed output dir name
 
-    #INPUT_DIR = r"C:\testinput"
-    #OUTPUT_DIR = r"C:\testoutput" # Changed output dir name
+    INPUT_DIR = r"C:\testinput"
+    OUTPUT_DIR = r"C:\testoutput"
 
     # --- Set a height to force manga images to before upscaling ---
-    # FORCE_HEIGHT = None
+    #FORCE_HEIGHT = None
     FORCE_HEIGHT = 1200 # Example: Force to 1200p input
 
     # --- Run the processing ---
